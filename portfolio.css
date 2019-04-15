@@ -1,0 +1,64 @@
+/* Selector{
+    Property: value;
+} */
+body{
+
+    background-image: url("Background/back7.gif");
+    background-position: center;
+    background-size:cover ;
+}
+
+div#nav{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid rgba(88, 2, 42, 0.877);
+    border-radius: 10px;
+    /* background-color: rgba(88, 2, 42, 0.226) */    
+}
+
+a{
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 1s;
+    text-decoration: none;
+    color: rgba(88, 2, 42, 0.877);
+    font-size: 20pt;
+    transition: all 0.5s;
+}
+a:hover{
+    font-size: 25pt;
+    color: rgba(180, 6, 88, 0.877)
+
+}
+
+h1{
+    color:rgba(0, 23, 26, 0.842);
+    text-align: center;
+    border: 3px solid rgba(3, 56, 56, 0.801);
+    border-radius: 5px;
+    /* background-color:rgba(3, 56, 56, 0.26)  */
+    
+}
+
+div#img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* text-align: center; */
+    font-size: 15pt;
+}
+
+div#img img{
+    height: 300px;
+    width: 300px;
+    margin: 7px;
+    transition: all 0.5s;
+    border-radius: 50%;
+    border: 2px solid darkslategrey;
+}
+
+div#img img:hover{
+    transform: scale(1.3)
+}
